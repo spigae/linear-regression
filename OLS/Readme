@@ -1,5 +1,7 @@
 Subrepository containing python scripts to perform Multiple Linear Regression using Ordinary Least Squares (OLS)
 
+Usage
+
 1. Loading and describing data
    python loading-describing-data.py > loading-describing-data.log
 
