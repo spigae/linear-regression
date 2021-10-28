@@ -12,7 +12,7 @@ Before usage, please check the following files:
 
 # Pipeline and Usage
 
-1. Loading and describing data
+## 1. Loading and describing data
 
 python loading-describing-data.py > loading-describing-data.log
 
