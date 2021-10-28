@@ -75,5 +75,7 @@ Please contact me at the following email address: spiga.enrico at gmail.com if y
 Enrico Spiga
 
 Chiamavamo noi stessi S'ARD, che nell'antica lingua significa danzatori delle stelle.
+
 We called ourselves S'ARD, which in the ancient language means dancers of stars.
+
 Sergio Atzeni
