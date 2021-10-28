@@ -13,9 +13,14 @@ Before usage, please check the following files:
 # Pipeline and Usage
 
 ## 1. Loading and describing data
+Script: loading-describing-data.py
+
+Usage (from a terminal):
 python loading-describing-data.py > loading-describing-data.log
 
 ## 2. Transforming data
+Script: transforming.py
+
 python transforming.py > transforming.log
 
 ## 3. Exploratory analysis
@@ -81,4 +86,5 @@ Enrico Spiga
 Chiamavamo noi stessi S'ARD, che nell'antica lingua significa danzatori delle stelle.
 
 We called ourselves S'ARD, which in the ancient language means dancers of stars.
+
 Sergio Atzeni
