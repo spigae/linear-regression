@@ -1,5 +1,6 @@
 # linear-regression
-A repository containing Python scripts to perform multiple linear regression
+A repository containing Python scripts to perform Multiple Linear Regression.
+
 
 ---
 spigae
