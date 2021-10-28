@@ -33,19 +33,17 @@ python constructing-model-and-fit.py > constructing-model-and-fit.log
 
 ## 5. Diagnostics of the model
 ### 5.1 Diagnostic of Linearity: Rainbow and Harvey-Collier tests
-#### 5.1.1 Rainbow Linearity Test
-##### 5.1.2 Harvey-Collier Linearity Test
 python diagnostic-linearity.py > diagnostic-linearity.log
        
-   5.2 Diagnostic of Normality
-       5.2.1 Plots of predicted variables vs residuals
-       5.2.2 Q-Q plot of normalized residuals
-       5.2.3 Shapiro-Wilk Normality Test
-       5.2.4 DAgostino K2 Normality Test
-       5.2.5 Jarque-Bera Normality Test
-       5.2.6 Omni Normality Test
-       5.2.7 Histogram of Normalized Residuals
-       python diagnostic-normality.py > diagnostic-normality.log
+### 5.2 Diagnostic of Normality:
+Plots of predicted variables vs residuals;
+Q-Q plot of normalized residuals;
+Shapiro-Wilk Normality Test;
+D' Agostino K2 Normality Test;
+Jarque-Bera Normality Test;
+Omni Normality Test;
+Histogram of Normalized Residuals.
+python diagnostic-normality.py > diagnostic-normality.log
        
    5.3 Diagnostic of Influence
        5.3.1 Influence plot (Studentized Residuals vs H Leverage)
