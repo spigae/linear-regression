@@ -124,7 +124,7 @@ python make-predictions.py > make-predictions.log
 Please contact me at the following email address: spiga.enrico at gmail.com if you need clarifications or support in using the scripts.
 
 ---
-Enrico Spiga
+spigae
 
 Chiamavamo noi stessi S'ARD, che nell'antica lingua significa danzatori delle stelle.
 
