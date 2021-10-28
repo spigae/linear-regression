@@ -1,0 +1,13 @@
+name script,description script,date last revision,n version
+loading-describing-data.py,Loading and describing the data,26.10.2021,0.1
+transforming.py,Creating new dataframe for statsmodels,26.10.2021,0.1
+exploratory-analysis-1.py,Evaluating the relationship between predictors and response,26.10.2021,0.1
+exploratory-analysis-2.py,Creating pairwise scatterplots of predictors and response,26.10.2021,0.1
+exploratory-analysis-3.py,Calculating and plotting correlation matrix,26.10.2021,0.1
+constructing-model-and-fit.py,Constructing the model using Ordinary Least Squares (OLS) and then fit,26.10.2021,0.1
+diagnostic-linearity.py,Diagnostic of Linearity: Rainbow and Harvey-Collier tests,26.10.2021,0.1
+diagnostic-normality.py,Diagnostic of Normality: plots and various tests,26.10.2021,0.1
+diagnostic-influence.py,Diagnostic of Influence: plots and various tests,26.10.2021,0.1
+diagnostic-multicollinearity.py,Diagnostic of Multicollinearity: Condition Number and Variation Inflation,26.10.2021,0.1
+diagnostic-heteroskedasticity.py,Diagnostic of Heteroskedasticity: Breush-Pagan and Goldfeld-Quandt,26.10.2021,0.1
+make-predictions.py,Making prediction values from a model,26.10.2021,0.1

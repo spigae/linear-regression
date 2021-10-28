@@ -1,0 +1,50 @@
+name script,name function,description function
+loading-describing-data.py,read_df_excel(filename),function for reading the dataframe
+loading-describing-data.py,describe_df(),function for describing the dataframe
+loading-describing-data.py,info_df(),function for getting information about the dataframe
+transforming.py,read_df_excel(filename),function for reading the dataframe
+transforming.py,manipulate_df_for_statsmodels(),function for creating a dataframes easily useable by statsmodels
+exploratory-analysis-1.py,read_df(filename),function for reading the dataframe
+exploratory-analysis-1.py,graph_relationship_predicting_values_response(),function for creating graphs of relationship between predicting values and response
+exploratory-analysis-2.py,read_df(filename),function for reading the dataframe
+exploratory-analysis-2.py,make_pairwise_scatterplot(),function for creating a pairwise scatterplot with seaborn
+exploratory-analysis-3.py,read_df(filename),function for reading the dataframe
+exploratory-analysis-3.py,calculate_correlation_matrix(),function to calculate correlation matrix and write it to dataframe
+exploratory-analysis-3.py,graph_heatmap_correlation(),function for creating a heatmap of the correlations
+constructing-model-and-fit.py,read_df(filename),function for reading the dataframe
+constructing-model-and-fit.py,construct_fit_model(),function to construct and fit the model
+constructing-model-and-fit.py,yes_no(b),function to assign Yes/No to values statistical significance (using p-values) to the features
+constructing-model-and-fit.py,create_dataframe_results(),creating dataframe with p-values of the features
+diagnostic-linearity.py,read_df(filename),function for reading the dataframe
+diagnostic-linearity.py,construct_fit_model(),function to construct and fit the model
+diagnostic-linearity.py,run_rainbow_linearity_test(),function for diagnostic linearity using the Rainbow Linearity Test
+diagnostic-linearity.py,run_harvey_collier_linearity_test(),function for diagnostic linearity using the Harvey-Collier Test
+diagnostic-normality.py,read_df(filename),function for reading the dataframe for statsmodels
+diagnostic-normality.py,construct_fit_model(),function to construct and fit the model
+diagnostic-normality.py,graph_predicted_variables_vs_residuals(),function for creating graphs of predicted variables vs residuals
+diagnostic-normality.py,graph_q_q_plot_residuals(),function for creating graph of Q-Q plot of the residuals
+diagnostic-normality.py,perform_normality_shapiro_wilk_test(),function to perform Normality (Shapiro-Wilk) test of the residuals
+diagnostic-normality.py,perform_normality_dagostinos_test(),function to perform Normality (D'Agostino's K2) test of the residuals
+diagnostic-normality.py,perform_normality_jarque_bera_test(),function for diagnostic normality residuals with the Jarque-Bera test
+diagnostic-normality.py,perform_normality_omni_test(),function for diagnostic normality residuals with the Omni test
+diagnostic-normality.py,graph_histogram_normalized_residuals(),function for creating graph of histogram normalized residuals
+diagnostic-influence.py,read_df(filename),function for reading the dataframe for statsmodels
+diagnostic-influence.py,construct_fit_model(),function to construct and fit the model
+diagnostic-influence.py,perform_influence_tests(),function to perform influence tests and writing it to a dataframe
+diagnostic-influence.py,graph_influence_plot(),function to create an influence plot studentized residuals vs H leverage
+diagnostic-influence.py,graph_leverage_plot(),function to create a leverage plot leverage vs Normalized residuals
+diagnostic-multicollinearity.py,read_df(filename),function for reading the dataframe for statsmodels
+diagnostic-multicollinearity.py,construct_fit_model(),function to construct and fit the model
+diagnostic-multicollinearity.py,calculate_condition_number(),function to perform a multicollinearity test calculation of the condition number
+diagnostic-multicollinearity.py,calculate_variation_inflation_factor(),function to perform a multicollinearity test calculation of variation inflation
+diagnostic-multicollinearity.py,calculate_correlation_matrix(),function to calculate correlation matrix and write it to dataframe this is a quantification/visualisation of multicollinearity too
+diagnostic-multicollinearity.py,graph_heatmap_correlation(),function for creating a heatmap of the correlations this is a quantification/visualisation of multicollinearity too
+diagnostic-heteroskedasticity.py,read_df(filename),function for reading the dataframe for statsmodels
+diagnostic-heteroskedasticity.py,construct_fit_model(),function to construct and fit the model
+diagnostic-heteroskedasticity.py,perform_Breush_Pagan_test(),function to perform a Breush-Pagan test Heteroskedasticity
+diagnostic-heteroskedasticity.py,perform_Goldfeld_Quandt_test(),function to perform a Goldfeld-Quandt test Heteroskedasticity
+diagnostic-heteroskedasticity.py,graph_fitted_vs_residuals_heteroskedasticity(),function for creating graph of fitted vs residuals (visualising constant variance assumption) Heteroskedasticity
+make-predictions.py,read_df_excel(filename)function for reading the dataframe written in excel it is needed to know the real name of variables
+make-predictions.py,read_df_for_predictions(filename),function for reading the dataframe to do the predictions
+make-predictions.py,construct_fit_model(),function to construct and fit the model
+make-predictions.py,make_predictions(),function to make the predictions
