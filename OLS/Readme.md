@@ -36,7 +36,7 @@ python constructing-model-and-fit.py > constructing-model-and-fit.log
 python diagnostic-linearity.py > diagnostic-linearity.log
        
 ### 5.2 Diagnostic of Normality:
-Plots of predicted variables vs residuals,
+Plots of predicted variables vs residuals, 
 Q-Q plot of normalized residuals,
 Shapiro-Wilk Normality Test,
 D' Agostino K2 Normality Test,
@@ -46,14 +46,15 @@ Histogram of Normalized Residuals.
 
 python diagnostic-normality.py > diagnostic-normality.log
        
-   5.3 Diagnostic of Influence
-       5.3.1 Influence plot (Studentized Residuals vs H Leverage)
-       5.3.2 Leverage plot (Leverage vs Normalized Residuals^2)
-       python diagnostic-influence.py > diagnostic-influence.log
+### Diagnostic of Influence:
+Influence plot (Studentized Residuals vs H Leverage), 
+Leverage plot (Leverage vs Normalized Residuals^2)
 
-   5.4 Diagnostic of Multicollinearity
-       5.4.1 Calculation Condition number (reference values?)
-       5.4.2 Calculation Variance Inflation Factor (reference values?)
+python diagnostic-influence.py > diagnostic-influence.log
+
+### Diagnostic of Multicollinearity:
+Calculation Condition number,
+Calculation Variance Inflation Factor (reference values?)
        5.4.3 Calculation Correlation Matrix
        5.4.4 Graph heatmap correlation matrix
        python diagnostic-multicollinearity.py > diagnostic-multicollinearity.log
