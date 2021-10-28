@@ -21,6 +21,7 @@ Before usage, please check the following files:
    python transforming.py > transforming.log
 
 3. Exploratory analysis
+   
    3.1 Evaluating the relationship between predictors and response
        python exploratory-analysis-1.py > exploratory-analysis-1.log
 
