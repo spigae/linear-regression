@@ -56,7 +56,9 @@ Usage (from a terminal):
 python constructing-model-and-fit.py > constructing-model-and-fit.log
 
 ## 5. Diagnostics of the model
-### 5.1 Diagnostic of Linearity: Rainbow and Harvey-Collier tests
+### 5.1 Diagnostic of Linearity: 
+Rainbow and Harvey-Collier tests.
+
 Script: diagnostic-linearity.py 
 
 Usage (from a terminal):
