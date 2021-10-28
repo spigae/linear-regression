@@ -13,26 +13,24 @@ Before usage, please check the following files:
 # Pipeline and Usage
 
 1. Loading and describing data
-   
-   python loading-describing-data.py > loading-describing-data.log
+
+python loading-describing-data.py > loading-describing-data.log
 
 2. Transforming data
-   
-   python transforming.py > transforming.log
+python transforming.py > transforming.log
 
 3. Exploratory analysis
-   
-   3.1 Evaluating the relationship between predictors and response
-       python exploratory-analysis-1.py > exploratory-analysis-1.log
+3.1 Evaluating the relationship between predictors and response
+python exploratory-analysis-1.py > exploratory-analysis-1.log
 
-   3.2 Creating pairwise scatterplots of predictors and response
-       python exploratory-analysis-2.py > exploratory-analysis-2.log
+3.2 Creating pairwise scatterplots of predictors and response
+python exploratory-analysis-2.py > exploratory-analysis-2.log
 
-   3.3 Calculating and plotting correlation matrix
-       python exploratory-analysis-3.py > exploratory-analysis-3.log
+3.3 Calculating and plotting correlation matrix
+python exploratory-analysis-3.py > exploratory-analysis-3.log
 
 4. Constructing the model using Ordinary Least Squares (OLS) and then fit
-   python constructing-model-and-fit.py > constructing-model-and-fit.log
+python constructing-model-and-fit.py > constructing-model-and-fit.log
 
 5. Diagnostics of model
    5.1 Diagnostic of Linearity: Rainbow and Harvey-Collier tests
