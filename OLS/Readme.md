@@ -22,13 +22,13 @@ python transforming.py > transforming.log
 ### 3.1 Evaluating the relationship between predictors and response
 python exploratory-analysis-1.py > exploratory-analysis-1.log
 
-3.2 Creating pairwise scatterplots of predictors and response
+### 3.2 Creating pairwise scatterplots of predictors and response
 python exploratory-analysis-2.py > exploratory-analysis-2.log
 
-3.3 Calculating and plotting correlation matrix
+### 3.3 Calculating and plotting correlation matrix
 python exploratory-analysis-3.py > exploratory-analysis-3.log
 
-4. Constructing the model using Ordinary Least Squares (OLS) and then fit
+## 4. Constructing the model using Ordinary Least Squares (OLS) and then fit
 python constructing-model-and-fit.py > constructing-model-and-fit.log
 
 5. Diagnostics of model
