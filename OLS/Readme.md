@@ -13,9 +13,11 @@ Before usage, please check the following files:
 # Pipeline and Usage
 
 1. Loading and describing data
+   
    python loading-describing-data.py > loading-describing-data.log
 
 2. Transforming data
+   
    python transforming.py > transforming.log
 
 3. Exploratory analysis
