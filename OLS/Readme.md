@@ -40,38 +40,42 @@ Plots of predicted variables vs residuals,
 Q-Q plot of normalized residuals,
 Shapiro-Wilk Normality Test,
 D' Agostino K2 Normality Test,
-Jarque-Bera Normality Test;,
+Jarque-Bera Normality Test,
 Omni Normality Test,
 Histogram of Normalized Residuals.
 
 python diagnostic-normality.py > diagnostic-normality.log
        
-### Diagnostic of Influence:
+### 5.3 Diagnostic of Influence:
 Influence plot (Studentized Residuals vs H Leverage), 
 Leverage plot (Leverage vs Normalized Residuals^2)
 
 python diagnostic-influence.py > diagnostic-influence.log
 
-### Diagnostic of Multicollinearity:
+### 5.4 Diagnostic of Multicollinearity:
 Calculation Condition number,
-Calculation Variance Inflation Factor (reference values?)
-       5.4.3 Calculation Correlation Matrix
-       5.4.4 Graph heatmap correlation matrix
-       python diagnostic-multicollinearity.py > diagnostic-multicollinearity.log
+Calculation Variance Inflation Factor,
+Calculation Correlation Matrix,
+Graph heatmap correlation matrix.
 
-   5.5 Diagnostic of Heteroskedasticity
-       5.5.1 Breush-Pagan test (reference values?)
-       5.5.2 Goldfeld Quandt test (reference values?)
-       5.5.3 fitted vs residuals
-       python diagnostic-heteroskedasticity.py > diagnostic-heteroskedasticity.log
+python diagnostic-multicollinearity.py > diagnostic-multicollinearity.log
 
-6. Predictions
-   Making predictions on the basis of the created model/fit
-   python make-predictions.py > make-predictions.log
+### 5.5 Diagnostic of Heteroskedasticity:
+Breush-Pagan test,
+Goldfeld Quandt test,
+fitted vs residuals.
+
+python diagnostic-heteroskedasticity.py > diagnostic-heteroskedasticity.log
+
+## 6. Predictions
+Making predictions on the basis of the created model/fit
+
+python make-predictions.py > make-predictions.log
+
 
 Please contact me at the following email address: spiga.enrico at gmail.com if you need clarifications or support in using the scripts.
 
-
+---
 Enrico Spiga
 
 Chiamavamo noi stessi S'ARD, che nell'antica lingua significa danzatori delle stelle.
