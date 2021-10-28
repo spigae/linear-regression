@@ -36,12 +36,12 @@ python constructing-model-and-fit.py > constructing-model-and-fit.log
 python diagnostic-linearity.py > diagnostic-linearity.log
        
 ### 5.2 Diagnostic of Normality:
-Plots of predicted variables vs residuals;
-Q-Q plot of normalized residuals;
-Shapiro-Wilk Normality Test;
-D' Agostino K2 Normality Test;
-Jarque-Bera Normality Test;
-Omni Normality Test;
+Plots of predicted variables vs residuals,
+Q-Q plot of normalized residuals,
+Shapiro-Wilk Normality Test,
+D' Agostino K2 Normality Test,
+Jarque-Bera Normality Test;,
+Omni Normality Test,
 Histogram of Normalized Residuals.
 
 python diagnostic-normality.py > diagnostic-normality.log
