@@ -16,28 +16,51 @@ Before usage, please check the following files:
 Script: loading-describing-data.py
 
 Usage (from a terminal):
+
 python loading-describing-data.py > loading-describing-data.log
 
 ## 2. Transforming data
 Script: transforming.py
 
+Usage (from a terminal):
+
 python transforming.py > transforming.log
 
 ## 3. Exploratory analysis
 ### 3.1 Evaluating the relationship between predictors and response
+Script: exploratory-analysis-1.py
+
+Usage (from a terminal):
+
 python exploratory-analysis-1.py > exploratory-analysis-1.log
 
 ### 3.2 Creating pairwise scatterplots of predictors and response
+Script: exploratory-analysis-2.py
+
+Usage (from a terminal):
+
 python exploratory-analysis-2.py > exploratory-analysis-2.log
 
 ### 3.3 Calculating and plotting correlation matrix
+Script: exploratory-analysis-3.py
+
+Usage (from a terminal):
+
 python exploratory-analysis-3.py > exploratory-analysis-3.log
 
 ## 4. Constructing the model using Ordinary Least Squares (OLS) and then fit
+Script: constructing-model-and-fit.py
+
+Usage (from a terminal):
+
 python constructing-model-and-fit.py > constructing-model-and-fit.log
 
 ## 5. Diagnostics of the model
 ### 5.1 Diagnostic of Linearity: Rainbow and Harvey-Collier tests
+Script: diagnostic-linearity.py 
+
+Usage (from a terminal):
+
 python diagnostic-linearity.py > diagnostic-linearity.log
        
 ### 5.2 Diagnostic of Normality:
@@ -49,11 +72,19 @@ Jarque-Bera Normality Test,
 Omni Normality Test,
 Histogram of Normalized Residuals.
 
+Script: diagnostic-normality.py
+
+Usage (from a terminal):
+
 python diagnostic-normality.py > diagnostic-normality.log
        
 ### 5.3 Diagnostic of Influence:
 Influence plot (Studentized Residuals vs H Leverage), 
 Leverage plot (Leverage vs Normalized Residuals^2)
+
+Script: diagnostic-influence.py
+
+Usage (from a terminal):
 
 python diagnostic-influence.py > diagnostic-influence.log
 
@@ -63,6 +94,10 @@ Calculation Variance Inflation Factor,
 Calculation Correlation Matrix,
 Graph heatmap correlation matrix.
 
+Script: diagnostic-multicollinearity.py
+
+Usage (from a terminal):
+
 python diagnostic-multicollinearity.py > diagnostic-multicollinearity.log
 
 ### 5.5 Diagnostic of Heteroskedasticity:
@@ -70,10 +105,16 @@ Breush-Pagan test,
 Goldfeld Quandt test,
 fitted vs residuals.
 
+Script: diagnostic-heteroskedasticity.py
+
+Usage (from a terminal):
+
 python diagnostic-heteroskedasticity.py > diagnostic-heteroskedasticity.log
 
-## 6. Predictions
-Making predictions on the basis of the created model/fit
+## 6. Predictions: making predictions on the basis of the created model/fit.
+Script: make-predictions.py
+
+Usage (from a terminal):
 
 python make-predictions.py > make-predictions.log
 
