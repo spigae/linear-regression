@@ -31,11 +31,11 @@ python exploratory-analysis-3.py > exploratory-analysis-3.log
 ## 4. Constructing the model using Ordinary Least Squares (OLS) and then fit
 python constructing-model-and-fit.py > constructing-model-and-fit.log
 
-5. Diagnostics of model
-   5.1 Diagnostic of Linearity: Rainbow and Harvey-Collier tests
-       5.1.1 Rainbow Linearity Test
-       5.1.2 Harvey-Collier Linearity Test
-       python diagnostic-linearity.py > diagnostic-linearity.log
+## 5. Diagnostics of the model
+### 5.1 Diagnostic of Linearity: Rainbow and Harvey-Collier tests
+#### 5.1.1 Rainbow Linearity Test
+##### 5.1.2 Harvey-Collier Linearity Test
+python diagnostic-linearity.py > diagnostic-linearity.log
        
    5.2 Diagnostic of Normality
        5.2.1 Plots of predicted variables vs residuals
