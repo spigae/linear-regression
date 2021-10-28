@@ -43,6 +43,7 @@ D' Agostino K2 Normality Test;
 Jarque-Bera Normality Test;
 Omni Normality Test;
 Histogram of Normalized Residuals.
+
 python diagnostic-normality.py > diagnostic-normality.log
        
    5.3 Diagnostic of Influence
