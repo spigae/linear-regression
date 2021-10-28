@@ -1,5 +1,5 @@
 # linear-regression
-A repository containing Python scripts to perform Multiple Linear Regression.
+A repository containing Python scripts to perform Multiple Linear Regression (MLS).
 
 
 ---
